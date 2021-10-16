@@ -1,0 +1,15 @@
+GET {{baseUrl}}/assets?collection=the-wanderers&limit=1
+Accept: application/json
+
+###
+GET {{baseUrl}}/events?only_opensea=true&limit=2
+Accept: application/json
+
+###
+
+GET {{baseUrl}}/collections?offset=0&limit=3
+Accept: application/json
+
+###
+
+GET https://api.opensea.io/api/v1/assets?order_by=sale_price&order_direction=asc&offset=0&limit=20&collection=the-wanderers
